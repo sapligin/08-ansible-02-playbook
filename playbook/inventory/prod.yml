@@ -1,0 +1,7 @@
+---
+elasticsearch:
+  hosts:
+    localhost:
+      ansible_connection: local
+      ansible_user: ubuntu
+      ansible_become_password: p@$$w0rd
